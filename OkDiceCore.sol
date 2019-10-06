@@ -113,7 +113,7 @@ contract AccessControl {
 /// @title A facet of Okdice that manages bets.
 /// @author okdice.io
 ///
-///  Ethereum smart contract, deployed at 0x8Efe413913B3618950F6743249a510bA153EEf9B.
+///  Ethereum smart contract, deployed at 0xBF96042D61937B1686B81557c3A92806F1727ECF.
 ///
 ///  Uses hybrid commit-reveal + block hash random number generation that is immune
 ///   to tampering by players, house and miners. Apart from being fully transparent,
@@ -135,7 +135,7 @@ contract OkDice is AccessControl{
 
     // There is minimum and maximum bets.
     uint constant MIN_BET = 0.01 ether;
-    uint constant MAX_AMOUNT = 1000 ether;
+    uint constant MAX_AMOUNT = 300000 ether;
 
     // Modulo is a number of equiprobable outcomes in a game:
     //  - 2 for coin flip
